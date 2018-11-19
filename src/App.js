@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import NavBar from './components/NavBar'
+import CardList from './components/CardList'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
+      <div>
+        <NavBar />
+        <CardList />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
