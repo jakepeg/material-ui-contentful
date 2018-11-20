@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography'
 const NavBar = () => {
     return(
         <div>
-        <AppBar position="static">
+        <AppBar position="static" elevation="6">
             <Toolbar>
                 <Typography variant="title" color="inherit">
                 DooZone Activity Finder

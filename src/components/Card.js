@@ -11,7 +11,7 @@ const Cardy = (props) => {
     return(
         <div>
             { props.card ? (
-                <Card >
+                <Card elevation="6">
                     <CardMedia style={{height: 0, paddingTop: '56.25%'}}
                     image={props.card.fields.image.fields.file.url}
                     title={props.card.fields.title}
