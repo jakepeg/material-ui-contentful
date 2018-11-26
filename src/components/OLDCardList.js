@@ -15,6 +15,11 @@ const client = contentful.createClient({
 
 class CardList extends Component {
 
+    state = {
+        cards: [],
+        searchString: ''
+    }
+
     constructor() {
         super()
         this.getCards()
@@ -23,7 +28,7 @@ class CardList extends Component {
     getCards = () => {
         client.getEntries({
             content_type: 'card',
-            query: this.props.searchString
+            query: this.state.searchString
         })
         .then((response) => {
             this.setState({cards: response.items})

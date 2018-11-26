@@ -1,0 +1,28 @@
+.selecta-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-wrapper span.caret {
+    color: initial;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.selecta {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.selecta-item {
+    font-size: 1.5rem;
+    color: #0097a7;
+    margin-right: 50px;
+}

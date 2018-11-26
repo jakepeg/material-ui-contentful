@@ -14,12 +14,6 @@ const theme = createMuiTheme({
     status: {
       danger: 'orange',
     },
-    overrides: {
-        AppBar: {
-            color: 'white',
-            elevation: 19,
-        },
-      },
   });
 
   console.log(theme);
